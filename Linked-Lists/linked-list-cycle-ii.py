@@ -6,6 +6,7 @@
     Time: O(n), space: O(1)
 """
 
+
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         s_point = f_point = head
